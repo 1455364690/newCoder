@@ -19,6 +19,11 @@ class TreeNode {
 public class CreateTree {
     public static int[] preArray;
     public static int[] inArray;
+    int a = 0;
+    public void test(){
+        int a = 1;
+        System.out.println(a == this.a);
+    }
 
     public static void main(String[] args) {
         int[] pre = {1,2,3,4,5,6,7};
