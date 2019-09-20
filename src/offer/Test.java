@@ -6,7 +6,9 @@ package offer;
  */
 public class Test {
     public static void main(String[] args) {
-        NumberOf1 number = new NumberOf1();
-        System.out.println(number.NumberOf1(-1));
+        int[] a = {2,9,5,16,17,15,19,18,12};
+        int[] b = {4,3,5,1,2};
+        CheckBinSearchTree checkBinSearchTree = new CheckBinSearchTree();
+        System.out.println(checkBinSearchTree.VerifySquenceOfBST(a));
     }
 }
