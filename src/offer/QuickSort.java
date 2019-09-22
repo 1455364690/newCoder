@@ -15,7 +15,7 @@ public class QuickSort {
     }
 
     public static int[] qsort(int arr[], int start, int end) {
-        int pivot = arr[(start + end) / 2];
+        int pivot = arr[start];
         int i = start;
         int j = end;
         while (i < j) {
