@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5c3566b-6d10-4c9e-9559-996513754d58" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/offer/FindMax.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/ListCopy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/ShellSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/offer/SortIntegerArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offer/MSS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offer/RS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/offer/StringArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/newCoder/offer/CheckBinSearchTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/newCoder/offer/CheckBinSearchTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/newCoder/offer/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/newCoder/offer/QuickSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/newCoder/offer/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/newCoder/offer/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/offer/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/offer/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/offer/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,11 +20,12 @@
     <session id="1755979315">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="17" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="3" />
+          <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.22" value="1" />
@@ -37,29 +33,29 @@
           <entry key="project.open.time.35" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="20" />
+          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="24" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="23" />
+          <entry key="java" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="23" />
+          <entry key="JAVA" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="4095" />
+          <entry key="java" value="5893" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4095" />
+          <entry key="JAVA" value="5893" />
         </counts>
       </usages-collector>
     </session>
@@ -69,17 +65,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/offer/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-127">
-              <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+            <state relative-caret-position="209">
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/offer/MSS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="760">
+              <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/offer/ListCopy.java">
+        <entry file="file://$PROJECT_DIR$/src/offer/RS.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+            <state relative-caret-position="304">
+              <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -94,6 +99,9 @@
     </option>
   </component>
   <component name="FindInProjectRecents">
+    <findStrings>
+      <find>map</find>
+    </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
@@ -122,8 +130,11 @@
         <option value="$PROJECT_DIR$/src/offer/ShellSort.java" />
         <option value="$PROJECT_DIR$/src/offer/FindMax.java" />
         <option value="$PROJECT_DIR$/src/offer/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/offer/Test.java" />
         <option value="$PROJECT_DIR$/src/offer/ListCopy.java" />
+        <option value="$PROJECT_DIR$/src/offer/StringArray.java" />
+        <option value="$PROJECT_DIR$/src/offer/Test.java" />
+        <option value="$PROJECT_DIR$/src/offer/MSS.java" />
+        <option value="$PROJECT_DIR$/src/offer/RS.java" />
       </list>
     </option>
   </component>
@@ -147,7 +158,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,26 +176,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="offer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="newCoder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="newCoder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="offer" type="462c0819:PsiDirectoryNode" />
-              <item name="ListCopy.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569166903578" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569375440895" />
     <property name="ignore_missing_gitignore" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../idea/Tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -202,9 +206,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="CreateTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.CreateTree" />
+  <component name="RunManager" selected="Application.RS">
+    <configuration name="MSS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.MSS" />
       <module name="newCoder" />
       <extension name="coverage">
         <pattern>
@@ -229,8 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintMatrix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.PrintMatrix" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.QuickSort" />
       <module name="newCoder" />
       <extension name="coverage">
         <pattern>
@@ -242,8 +246,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="offer.QuickSort" />
+    <configuration name="RS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="offer.RS" />
       <module name="newCoder" />
       <extension name="coverage">
         <pattern>
@@ -269,19 +273,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CreateTree" />
-      <item itemvalue="Application.PrintMatrix" />
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.MSS" />
+      <item itemvalue="Application.RS" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RS" />
+        <item itemvalue="Application.MSS" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.PrintMatrix" />
-        <item itemvalue="Application.CreateTree" />
       </list>
     </recent_temporary>
   </component>
@@ -314,18 +318,22 @@
       <workItem from="1568968765958" duration="274000" />
       <workItem from="1568976033097" duration="1948000" />
       <workItem from="1569156621335" duration="4637000" />
-      <workItem from="1569166376264" duration="518000" />
+      <workItem from="1569166376264" duration="1196000" />
+      <workItem from="1569201106563" duration="3150000" />
+      <workItem from="1569326228703" duration="3018000" />
+      <workItem from="1569334527397" duration="7398000" />
+      <workItem from="1569373796859" duration="1646000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45808000" />
+    <option name="totallyTimeSpent" value="61698000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2069523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1851253" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -334,15 +342,15 @@
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2562396" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3527454" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3810316" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.28452578" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.18801996" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3294509" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Tail" order="13" />
@@ -456,24 +464,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/FindMax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="35" column="9" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -484,24 +478,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/RandomListNode.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/RandomListNode.java" />
+    <entry file="file://$PROJECT_DIR$/src/offer/ListCopy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        <state relative-caret-position="251">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="29" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/StringArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="31" column="31" selection-start-line="31" selection-start-column="31" selection-end-line="31" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/offer/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-127">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        <state relative-caret-position="209">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/offer/ListCopy.java">
+    <entry file="file://$PROJECT_DIR$/src/offer/MSS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        <state relative-caret-position="760">
+          <caret line="40" column="18" selection-start-line="40" selection-start-column="18" selection-end-line="40" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/offer/RS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="34" column="39" lean-forward="true" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
         </state>
       </provider>
     </entry>
