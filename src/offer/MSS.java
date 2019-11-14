@@ -1,6 +1,7 @@
 package offer;
 
 import java.util.Arrays;
+import java.util.Scanner;
 
 /**
  * @author sunjh
@@ -8,13 +9,21 @@ import java.util.Arrays;
  */
 public class MSS {
     public static void main(String[] args) {
-        int[] a = {1,5,4,3,2};
-        System.out.println(minSwaps(a, 5));
+        Scanner reader = new Scanner(System.in);
+        int n = reader.nextInt();
+        for (int i=0;i<n;i++){
+            int num = reader.nextInt();
+            int[] arr = new int[num];
+            for (int j=0;j<num;j++){
+                arr[j] = reader.nextInt();
+            }
+            System.out.println(minSwaps(arr,num));
+        }
+        reader.close();
     }
 
     public static int minSwaps(int[] A, int N) {
         int[] b = Arrays.copyOf(A, N);
-        int[] c = new int[N];
         Arrays.sort(b);
         int num = 0;
         for (int i = 0; i < N; i++) {
@@ -41,3 +50,12 @@ public class MSS {
         return -1;
     }
 }
+/*
+
+
+2
+5
+5 5 4 6 4
+11
+2 3 2 4 5 12 2 3 3 3 12
+ */
